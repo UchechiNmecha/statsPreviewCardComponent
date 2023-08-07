@@ -1,0 +1,22 @@
+@media (max-width: 53.125em) {
+  .container {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    text-align: center;
+  }
+
+  .stats-details {
+    grid-row: 2;
+    gap: 3rem;
+    padding: 4.8rem 3.5rem;
+  }
+
+  .stat-num {
+    align-self: center;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}

@@ -1,0 +1,102 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+}
+
+.stats {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.4rem;
+  max-width: 110rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.stats-details,
+.stats-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-details {
+  background-color: hsl(244, 38%, 16%);
+  gap: 6.4rem;
+  padding: 6rem;
+  padding-right: 10rem;
+}
+
+.stats-description {
+  gap: 2.4rem;
+}
+
+.header {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.header span {
+  color: hsl(277, 64%, 61%);
+}
+
+.stats-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat-num {
+  display: flex;
+  justify-content: space-between;
+  max-width: 36rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.num {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.area {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats-image {
+  background-image: url(../images/image-header-desktop.jpg);
+}
+.image-background {
+  background-color: rgba(170, 92, 219, 0.5);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
