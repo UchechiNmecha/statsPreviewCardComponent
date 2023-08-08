@@ -22,14 +22,16 @@ body {
 .stats {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.2rem;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0.4rem;
+  margin: 0.8rem;
   max-width: 110rem;
   border-radius: 1.2rem;
   overflow: hidden;
