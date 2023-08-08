@@ -31,7 +31,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0.8rem;
+  margin: 1.2rem;
   max-width: 110rem;
   border-radius: 1.2rem;
   overflow: hidden;
